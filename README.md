@@ -8,14 +8,14 @@ The source for both the plugin as well as the UE4OSC DLL file are included
 
 ======
 Installation Instructions:
-> Install Unreal Engine 4 https://docs.unrealengine.com/latest/INT/GettingStarted/Installation/index.html
-> Create a new project
-> In the folder of your new project, create a new folder called Plugins
-> Copy UE4OSCPlugin folder to that directory
-> Open project in UE4
-> In UE4, go to Window -> Plugins, and enable UE4OSC (under Communication category)
-> Create a new Blueprint inheriting from the UE4OSCPluginInterface (for blueprint tutorial videos: https://www.youtube.com/playlist?list=PLZlv_N0_O1gbYMYfhhdzfW1tUV4jU0YxH)
-> You now have access to all the Blueprint functions of UE4OSC!
+() Install Unreal Engine 4 https://docs.unrealengine.com/latest/INT/GettingStarted/Installation/index.html
+() Create a new project
+() In the folder of your new project, create a new folder called Plugins
+() Copy UE4OSCPlugin folder to that directory
+() Open project in UE4
+() In UE4, go to Window -> Plugins, and enable UE4OSC (under Communication category)
+() Create a new Blueprint inheriting from the UE4OSCPluginInterface (for blueprint tutorial videos: https://www.youtube.com/playlist?list=PLZlv_N0_O1gbYMYfhhdzfW1tUV4jU0YxH)
+() You now have access to all the Blueprint functions of UE4OSC!
 
 ======
 Current Blueprint functions available:
@@ -85,7 +85,11 @@ above license is reproduced.
 Credits:
 Thanks to Robert K Hamilton for creating and sharing UDKOSC, the framework from which UE4OSC is built
 https://ccrma.stanford.edu/wiki/UDKOSC
+
 Thanks to these tutorials on UE4 plugins:
-https://wiki.unrealengine.com/Linking_Dlls
-https://wiki.unrealengine.com/An_Introduction_to_UE4_Plugins
+
+https://wiki.unrealengine.com/Linking_Dlls - ZkarmaKun
+
+https://wiki.unrealengine.com/An_Introduction_to_UE4_Plugins - Bob Chatman
+
 Thanks to Rama for many UE4 tutorials
