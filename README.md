@@ -28,7 +28,8 @@ OSCSetHostnameAndPort
 
 	-This function allows you to set the IP address for communications
 
-	-If you're not sure what your IP address is, run cmd and in the command prompt, type ipconfig and use the IPv4 address
+	-If you're not sure what your IP address is, run cmd and in the command prompt, 
+	type ipconfig and use the IPv4 address
 
 OSCStartReceiver
 
@@ -36,11 +37,13 @@ OSCStartReceiver
 
 OSCGetFloat
 
-	-This function returns the float in the most recently received OSC message with the /Float address pattern
+	-This function returns the float in the most recently received OSC message with 
+	the /Float address pattern
 
 OSCGetFloatArray
 
-	-This function returns the array of floats in the most recently received OSC message with the /Aloat address pattern
+	-This function returns the array of floats in the most recently received OSC message 
+	with the /Array address pattern
 
 OSCSendFloat
 
@@ -50,7 +53,7 @@ OSCSendFloat
 ##Notes:
 This first version of UE4OSC is bare-bones.  I stripped it of much of the functionality for my own project
 in an attempt to make it more open ended and adaptable.  Please feel free to edit it however you see fit for your own work
-or contact me to request functionality, which I will add as I have time.  duerzr <at> vcu <dot> edu
+or contact me to request functionality, which I will add as I have time.  duerzr (at) vcu (dot) edu
 
 ======
 ##To Do:
