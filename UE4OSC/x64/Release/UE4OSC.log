@@ -1,0 +1,23 @@
+﻿Build started 9/27/2014 7:57:33 PM.
+     1>Project "C:\Users\ZachKN\Desktop\UE4OSC\UE4OSC.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\ZachKN\Desktop\UE4OSC\UE4OSC /IC:\Users\ZachKN\Desktop\UE4OSC\tests /IC:\Users\ZachKN\Desktop\UE4OSC\osc /IC:\Users\ZachKN\Desktop\UE4OSC\ip /IC:\Users\ZachKN\Desktop\UE4OSC\examples /IC:\Users\ZachKN\Desktop\UE4OSC /Zi /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D UE4OSC_EXPORTS /D _WINDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt UE4OSC\UE4OSC.cpp
+         UE4OSC.cpp
+     1>c:\users\zachkn\desktop\ue4osc\ue4osc\UE4OSC.h(15): warning C4305: 'initializing' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ZachKN\Desktop\UE4OSC\x64\Release\UE4OSC.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Ws2_32.lib WINMM.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ZachKN\Desktop\UE4OSC\x64\Release\UE4OSC.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ZachKN\Desktop\UE4OSC\x64\Release\UE4OSC.lib" /MACHINE:X64 /DLL x64\Release\IpEndpointName.obj
+         x64\Release\NetworkingUtils.obj
+         x64\Release\UdpSocket.obj
+         x64\Release\OscOutboundPacketStream.obj
+         x64\Release\OscPrintReceivedElements.obj
+         x64\Release\OscReceivedElements.obj
+         x64\Release\OscTypes.obj
+         x64\Release\UE4OSC.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+            Creating library C:\Users\ZachKN\Desktop\UE4OSC\x64\Release\UE4OSC.lib and object C:\Users\ZachKN\Desktop\UE4OSC\x64\Release\UE4OSC.exp
+         UE4OSC.vcxproj -> C:\Users\ZachKN\Desktop\UE4OSC\x64\Release\UE4OSC.dll
+     1>Done Building Project "C:\Users\ZachKN\Desktop\UE4OSC\UE4OSC.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.57

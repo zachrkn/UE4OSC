@@ -1,0 +1,19 @@
+{
+    "FileVersion" : 3,
+	
+	"FriendlyName" : "UE4OSC Plugin",
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"CreatedBy" : "Zach Duer",
+	"CreatedByURL" : "",
+	"Description" : "Allows UE4 to communicate with other programs and devices using the Open Sound Control protocol.  Created by Zach Duer",
+	"Category" : "Communication",
+	
+    "Modules" :
+	[
+		{
+			"Name" : "UE4OSCPlugin",
+			"Type" : "Runtime"
+		}
+	]
+}
