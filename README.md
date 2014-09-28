@@ -8,14 +8,16 @@ The source for both the plugin as well as the UE4OSC DLL file are included
 
 ======
 Installation Instructions:
-() Install Unreal Engine 4 https://docs.unrealengine.com/latest/INT/GettingStarted/Installation/index.html
-() Create a new project
-() In the folder of your new project, create a new folder called Plugins
-() Copy UE4OSCPlugin folder to that directory
-() Open project in UE4
-() In UE4, go to Window -> Plugins, and enable UE4OSC (under Communication category)
-() Create a new Blueprint inheriting from the UE4OSCPluginInterface (for blueprint tutorial videos: https://www.youtube.com/playlist?list=PLZlv_N0_O1gbYMYfhhdzfW1tUV4jU0YxH)
-() You now have access to all the Blueprint functions of UE4OSC!
+1. Install Unreal Engine 4 https://docs.unrealengine.com/latest/INT/GettingStarted/Installation/index.html
+2. Create a new project
+3. In the folder of your new project, create a new folder called Plugins
+4. Copy UE4OSCPlugin folder to that directory
+5. Open project in UE4
+6. In UE4, go to Window -> Plugins, and enable UE4OSC (under Communication category)
+7. Create a new Blueprint inheriting from the UE4OSCPluginInterface (for blueprint tutorial videos: https://www.youtube.com/playlist?list=PLZlv_N0_O1gbYMYfhhdzfW1tUV4jU0YxH)
+8. You now have access to all the Blueprint functions of UE4OSC!
+
+Video tutorials coming soon!
 
 ======
 Current Blueprint functions available:
