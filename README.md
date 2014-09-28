@@ -25,21 +25,21 @@ Video tutorials coming soon!
 ##Current Blueprint functions available:
 
 OSCSetHostnameAndPort
----This function allows you to set the IP address for communications
----If you're not sure what your IP address is, run cmd and in the command prompt, type ipconfig
----use the IPv4 address
+-This function allows you to set the IP address for communications
+
+-If you're not sure what your IP address is, run cmd and in the command prompt, type ipconfig and use the IPv4 address
 
 OSCStartReceiver
----Call this function to start receiving OSC message from other programs
+-Call this function to start receiving OSC message from other programs
 
 OSCGetFloat
----This function returns the float in the most recently received OSC message with the /Float address pattern
+-This function returns the float in the most recently received OSC message with the /Float address pattern
 
 OSCGetFloatArray
----This function returns the array of floats in the most recently received OSC message with the /Aloat address pattern
+-This function returns the array of floats in the most recently received OSC message with the /Aloat address pattern
 
 OSCSendFloat
----This function allows you send a single float over OSC with the address pattern you specify
+-This function allows you send a single float over OSC with the address pattern you specify
 
 ======
 ##Notes:
