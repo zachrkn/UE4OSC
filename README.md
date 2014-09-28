@@ -25,21 +25,26 @@ Video tutorials coming soon!
 ##Current Blueprint functions available:
 
 OSCSetHostnameAndPort
--This function allows you to set the IP address for communications
 
--If you're not sure what your IP address is, run cmd and in the command prompt, type ipconfig and use the IPv4 address
+	-This function allows you to set the IP address for communications
+
+	-If you're not sure what your IP address is, run cmd and in the command prompt, type ipconfig and use the IPv4 address
 
 OSCStartReceiver
--Call this function to start receiving OSC message from other programs
+
+	-Call this function to start receiving OSC message from other programs
 
 OSCGetFloat
--This function returns the float in the most recently received OSC message with the /Float address pattern
+
+	-This function returns the float in the most recently received OSC message with the /Float address pattern
 
 OSCGetFloatArray
--This function returns the array of floats in the most recently received OSC message with the /Aloat address pattern
+
+	-This function returns the array of floats in the most recently received OSC message with the /Aloat address pattern
 
 OSCSendFloat
--This function allows you send a single float over OSC with the address pattern you specify
+
+	-This function allows you send a single float over OSC with the address pattern you specify
 
 ======
 ##Notes:
@@ -50,13 +55,15 @@ or contact me to request functionality, which I will add as I have time.  duerzr
 ======
 ##To Do:
 -Close the thread created by Handle in StartOSCReceiver so UE4 doesn't crash when a level is played more than once
+
 -If possible, make the function that sends OSC messages not type-specific.  The user just sends a message of any type-specific
 and the backend takes care of the rest
+
 -Let the user specify what address patterns to listen for when receiving messages
 
 ======
 ##Copyright and Permissions
-Copyright (c) 2014 Zach Duer (duerzr <at> vcu <dot> edu)
+Copyright (c) 2014 Zach Duer (duerzr (at) vcu (dot) edu)
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files
